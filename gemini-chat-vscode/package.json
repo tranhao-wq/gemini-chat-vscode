@@ -1,0 +1,27 @@
+{
+    "name": "gemini-chat",
+    "displayName": "Gemini Chat UI",
+    "description": "Mini Gemini chat inside VS Code",
+    "version": "1.0.0",
+    "repository": {
+      "type": "git",
+      "url": "https://example.com"
+    },
+    "engines": {
+      "vscode": "^1.75.0"
+    },
+    "activationEvents": [
+      "onCommand:gemini-chat.openChat"
+    ],
+    "main": "extension.js",
+    "contributes": {
+      "commands": [
+        {
+          "command": "gemini-chat.openChat",
+          "title": "Open Gemini Chat UI"
+        }
+      ]
+    },
+    "dependencies": {}
+  }
+  
